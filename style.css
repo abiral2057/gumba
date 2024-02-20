@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+#downbar{
+  display: none;
+}
 body{
     background: #f7f7f7;
 }
@@ -54,8 +57,14 @@ body{
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+
     }
+    #downbar{
+      display: block ruby;
+    margin-bottom: 28px;
+    }
+    
   }

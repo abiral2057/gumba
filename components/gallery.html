@@ -61,44 +61,94 @@
     </div>
 </nav>
   <!--Navbar-->
-
-
-    <div class="row"> 
+  <div id="gallery" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/image/pic6.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+            <img src="/image/pic1.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/image/pic2.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/image/pic3.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/image/pic4.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+         <!-- Item 6 -->
+         <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/image/pic5.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+<div style="margin: 20px;">
+<h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Shree Choymdan's Gallery Collection</h1>
+<p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400"></p>
+</div>  
+<div class="row"> 
         <div class="column">
-          <img src="/w3images/wedding.jpg" style="width:100%">
-          <img src="/w3images/rocks.jpg" style="width:100%">
-          <img src="/w3images/falls2.jpg" style="width:100%">
-          <img src="/w3images/paris.jpg" style="width:100%">
-          <img src="/w3images/nature.jpg" style="width:100%">
-          <img src="/w3images/mist.jpg" style="width:100%">
-          <img src="/w3images/paris.jpg" style="width:100%">
+          <img src="/image/pic1.jpg" style="width:100%">
+          <img src="/image/pic2.jpg" style="width:100%">
+          <img src="/image/pic3.jpg" style="width:100%">
+          <img src="/image/pic4.jpg" style="width:100%">
+          <img src="/image/pic5.jpg" style="width:100%">
+          <img src="/image/pic6.jpg" style="width:100%">
+          <img src="/image/gallery/pic10.jpg" style="width:100%">
+          <img src="/image/gallery/pic1.jpg" style="width:100%">
+          <img src="/image/gallery/pic3.jpg" style="width:100%">
         </div>
 
 
         <div class="column">
-            <img src="/w3images/underwater.jpg" style="width:100%">
-            <img src="/w3images/ocean.jpg" style="width:100%">
-            <img src="/w3images/wedding.jpg" style="width:100%">
-            <img src="/w3images/mountainskies.jpg" style="width:100%">
-            <img src="/w3images/rocks.jpg" style="width:100%">
-            <img src="/w3images/underwater.jpg" style="width:100%">
+            <img src="/image/gallery/pic1.jpg" style="width:100%">
+            <img src="/image/gallery/pic2.jpg" style="width:100%">
+            <img src="/image/gallery/pic3.jpg" style="width:100%">
+            <img src="/image/gallery/pic4.jpg" style="width:100%">
+            <img src="/image/gallery/pic5.jpg" style="width:100%">
+            <img src="/image/gallery/pic6.jpg" style="width:100%">
           </div>  
           <div class="column">
-            <img src="/w3images/wedding.jpg" style="width:100%">
-            <img src="/w3images/rocks.jpg" style="width:100%">
-            <img src="/w3images/falls2.jpg" style="width:100%">
-            <img src="/w3images/paris.jpg" style="width:100%">
-            <img src="/w3images/nature.jpg" style="width:100%">
-            <img src="/w3images/mist.jpg" style="width:100%">
-            <img src="/w3images/paris.jpg" style="width:100%">
+            <img src="/image/gallery/pic7.jpg" style="width:100%">
+            <img src="/image/gallery/pic8.jpg" style="width:100%">
+            <img src="/image/gallery/pic9.jpg" style="width:100%">
+            <img src="/image/gallery/pic10.jpg" style="width:100%">
+            <img src="/image/gallery/pic11.jpg" style="width:100%">
+            <img src="/image/gallery/pic12.jpg" style="width:100%">
+            <img src="/image/gallery/pic13.jpg" style="width:100%">
           </div>
           <div class="column">
-            <img src="/w3images/underwater.jpg" style="width:100%">
-            <img src="/w3images/ocean.jpg" style="width:100%">
-            <img src="/w3images/wedding.jpg" style="width:100%">
-            <img src="/w3images/mountainskies.jpg" style="width:100%">
-            <img src="/w3images/rocks.jpg" style="width:100%">
-            <img src="/w3images/underwater.jpg" style="width:100%">
+            <img src="/image/gallery/pic14.jpg" style="width:100%">
+            <img src="/image/gallery/pic15.jpg" style="width:100%">
+            <img src="/image/gallery/pic16.jpg" style="width:100%">
+            <img src="/image/gallery/pic17.jpg" style="width:100%">
+            <img src="/image/gallery/pic2.jpg" style="width:100%">
+            <img src="/image/gallery/pic1.jpg" style="width:100%">
           </div>
         </div>
 
