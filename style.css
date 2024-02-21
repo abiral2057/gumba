@@ -63,7 +63,7 @@ body{
 
     }
     #downbar{
-      display: block ruby;
+      display: block;
     margin-bottom: 28px;
     }
     
